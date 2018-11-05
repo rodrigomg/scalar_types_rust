@@ -1,6 +1,7 @@
 fn main() {
     floating_point();
     numeric_operations();
+    booleans();
 }
 
 fn floating_point() {
@@ -29,3 +30,12 @@ fn numeric_operations() {
     println!("quotient: {}", quotient);
     println!("remainder: {}", remainder);
 }
+
+fn booleans() {
+    let t = true;
+    let f: bool = false; // with explicit type annotation
+
+    println!("variable t: {}", t);
+    println!("variable f: {}", f);
+}
+
