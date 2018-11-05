@@ -2,6 +2,7 @@ fn main() {
     floating_point();
     numeric_operations();
     booleans();
+    characters();
 }
 
 fn floating_point() {
@@ -39,3 +40,12 @@ fn booleans() {
     println!("variable f: {}", f);
 }
 
+fn characters() {
+    let c = 'z';
+    let z = 'Ƶ';
+    let heart_eyed_cat = '😻';
+    println!("variable c: {}", c);
+    println!("variable z: {}", z);
+    println!("variable heart_eyed_cat: {}", heart_eyed_cat);
+
+}
